@@ -94,6 +94,7 @@ with tgb.Page() as page:
       type="bar",
       title="Sales by Hour",
       layout=layout,
+      class_name="card-chart",
     )
     tgb.chart(
       "{sales_by_product_line}",
@@ -102,7 +103,8 @@ with tgb.Page() as page:
       type="bar",
       orientation="h",
       title="Sales by Product Line",
-      layout=layout
+      layout=layout,
+      class_name="card-chart",
     )
 
 # Create the Gui object and run the application

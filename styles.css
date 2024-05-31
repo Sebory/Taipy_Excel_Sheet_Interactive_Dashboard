@@ -5,6 +5,7 @@
   background-color: #9cbaf3;
   margin: 10px;
   transition: transform 0.3s, box-shadow 0.3s;
+  border: solid;
 }
 
 .card:hover {
@@ -21,4 +22,27 @@
 .card-value {
   font-size: 2em;
   color: #007bff;
+}
+
+.card-chart {
+  border-radius: 10px;
+  background-color: lightblue;
+}
+
+.fullwidth {
+  background-color: lightgreen;
+  font-weight: bold;
+  color: red;
+}
+
+.fullwidth > label {
+  color: red;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.fullwidth > lov {
+  color: red;
+  font-size: 18px;
+  /* font-weight: bold; */
 }
